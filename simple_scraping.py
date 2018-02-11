@@ -37,9 +37,9 @@ def plot_word_freq(url):
 ...     freqdist1.plot(25
 
 def plot_word_freq_file(file):
-		f = open(file, 'r')
-...		text = f.read()
-...		text = unicode(text, 'utf-8')
+...	f = open(file, 'r')
+...	text = f.read()
+...	text = unicode(text, 'utf-8')
 ...     tokenizer = RegexpTokenizer('\w+')
 ...     # Create tokens
 ...     tokens = tokenizer.tokenize(text)
